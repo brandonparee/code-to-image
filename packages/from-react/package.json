@@ -1,0 +1,30 @@
+{
+  "name": "from-react",
+  "version": "0.0.0",
+  "description": "Create an image from a React component",
+  "author": "Brandon Paree <me@brandonparee.com>",
+  "homepage": "",
+  "license": "MIT",
+  "main": "lib/react.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "files": [
+    "lib"
+  ],
+  "dependencies": {
+    "from-node-html": "^0.0.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "scripts": {
+    "build": "tsc -b",
+    "example": "ts-node example.tsx"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.5",
+    "@types/react-dom": "^17.0.5",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.4"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "from-node-html",
+  "version": "0.0.0",
+  "description": "Generate image from HTML with node.js",
+  "author": "Brandon Paree <me@brandonparee.com>",
+  "license": "MIT",
+  "main": "./lib/index.js",
+  "types": "./types/index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "files": [
+    "lib"
+  ],
+  "dependencies": {
+    "puppeteer": "^9.1.1"
+  },
+  "scripts": {
+    "build": "tsc -b"
+  }
+}
